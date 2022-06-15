@@ -5,8 +5,8 @@ defmodule Hello do
         name(a, i - 1)
     end
     def name(a, 0) do
-    :ok
-  end
+      :ok
+    end
 end
 
 Hello.name("Umair Iftikahr", 5)
